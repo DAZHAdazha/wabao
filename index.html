@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        Wabao - The place you will find that you want!
+    </title>
+    
+    <link rel="stylesheet" href="./css/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/main.css">   
+    <link media="(max-width:991px)" rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/print.css" media="print" />
+    <meta name="keywords" content="wabao,e-shopping,good products,reasonable price">
+    <script src="./javascript/jquery-3.4.1.js"></script>
+    <script src="./javascript/bootstrap/js/bootstrap.js"></script>
+    <script src="./javascript/main.js"></script>
+</head>
+
+<body>
+
+
+    <a id='top' name="top">
+    </a>
+    <div class="top-navi">
+        <div class="containers clear-float">
+            <div class="fl">
+                <a id="home" href="index.html">
+                    Home
+                </a>
+            </div>
+            <div class="fr">
+                
+                <a class="item" href="./HTML/favorite.html">
+                    My Favorite
+                </a>
+                <label class="item" for="log-in">Log In</label>
+                <a class="item" href="./HTML/signup.html">
+                    Sign Up
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="none">
+        <button id="log-in" class="btn btn-primary btn-lg item" data-toggle="modal" data-target="#myModal">Log in</button>
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="input-info">Username</div>
+                        <input id="input-username" type="text" class="form-control">
+                        <div class="input-info">Password</div>
+                        <input id="input-password" type="password" class="form-control">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                        <button id="login" type="button" class="btn btn-primary">Log In</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="header clear-float">
+
+        <br>
+        <br>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-3 logo">
+                    <span class="icon">
+                        wabao
+                    </span>
+                    <img id="icon" title="wabao-icon" src="./img/wabao.png" alt="wabao-icon">
+                </div>
+                <div class="col-md-6 search-bar">
+                    <input id="search" type="text" placeholder="Enter full product name or type">
+                    <button>
+                        Search
+                    </button>
+                </div>
+                <div class="col-md-3 cart">
+                    <a href="./HTML/cart.html">
+                        Cart
+                        <img id="cart" title="cart" src="./img/cart.png" alt="cart">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="promote_img" class="carousel slide" data-ride="carousel">
+                    <ul class="carousel-indicators">
+                        <li data-target="#promote_img" data-slide-to="0" class="active"></li>
+                        <li data-target="#promote_img" data-slide-to="1"></li>
+                        <li data-target="#promote_img" data-slide-to="2"></li>
+                    </ul>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="./HTML/keyboard2.html">
+                                <img src="./img/promote1.jpg">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="./HTML/mouse1.html">
+                                <img src="./img/promote2.jpg">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="./HTML/keyboard1.html">
+                                <img src="./img/promote3.jpg">
+                            </a>
+
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#promote_img" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#promote_img" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <a id='top' href="#top">
+            <img title="to-top" src="./img/top.png" alt="to-top">
+        </a>
+        <div class="cat-promote clear-float">
+            <div class="title">
+                <a href="./HTML/keyboard.html">
+                    Keyboard
+                </a>
+            </div>
+            <div class="row">
+                <div class="col-md-2 responsive">
+                    <div class="card">
+                        <a href="./HTML/keyboard1.html">
+                            <img title="blackwidow" src="./img/keyboard1.jpg" alt="blackwidow">
+                        </a>
+                        <div class="spe">
+                            <p>
+                                BlackWidow
+                            </p>
+                            <span class="line-through">
+                                999
+                            </span>
+                            <span class="price">
+                                799
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 responsive">
+                    <div class="card">
+                        <a href="./HTML/keyboard2.html">
+                            <img title="Logitech G813" src="./img/keyboard2.jpg" alt="Logitech G813">
+                        </a>
+                        <div class="spe">
+                            <p>
+                                Logitech G813
+                            </p>
+                            <span class="line-through">
+                                1209
+                            </span>
+                            <span class="price">
+                                1100
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-2 responsive">
+                    <div class="card">
+                        <a href="./HTML/keyboard3.html">
+                            <img title="SteelSeries Apex 7" src="./img/keyboard3.jpg" alt="SteelSeries Apex 7">
+                        </a>
+                        <div class="spe">
+                            <p>
+                                Apex 7
+                            </p>
+                            <span class="line-through">
+                                699
+                            </span>
+                            <span class="price">
+                                500
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 responsive">
+                    <div class="card">
+                        <a href="./HTML/keyboard4.html">
+                            <img title="Zowie BenQ" src="./img/keyboard4.jpg" alt="Zowie BenQ">
+                        </a>
+                        <div class="spe">
+                            <p>
+                                Zowie BenQ
+                            </p>
+                            <span class="line-through">
+                                899
+                            </span>
+                            <span class="price">
+                                800
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 responsive">
+                    <div class="card">
+                        <a href="./HTML/keyboard5.html">
+                            <img title="Corsair K70" src="./img/keyboard5.jpg" alt="Corsair K70">
+                        </a>
+                        <div class="spe">
+                            <p>
+                                Corsair K70
+                            </p>
+                            <span class="line-through">
+                                2199
+                            </span>
+                            <span class="price">
+                                1990
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 responsive">
+                    <div class="card">
+                        <a href="./HTML/keyboard6.html">
+                            <img title="Razer Huntsman Elite" src="./img/keyboard6.jpg" alt="Razer Huntsman Elite">
+                        </a>
+                        <div class="spe">
+                            <p>
+                                Huntsman
+                            </p>
+                            <span class="line-through">
+                                1599
+                            </span>
+                            <span class="price">
+                                1349
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="title">
+                <a href="./HTML/mouse.html">
+                    Mouse
+                </a>
+            </div>
+            <div class="row">
+                <div class="col-md-2 responsive">
+                    <div class="card">
+                        <a href="./HTML/mouse1.html">
+                            <img title="Razer DeathAdder" src="./img/mouse1.jpg" alt="Razer DeathAdder">
+                        </a>
+                        <div class="spe">
+                            <p>
+                                DeathAdder
+                            </p>
+                            <span class="line-through">
+                                299
+                            </span>
+                            <span class="price">
+                                250
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 responsive">
+
+                    <div class="card">
+                        <a href="./HTML/mouse2.html">
+                            <img title="Logitech G502" src="./img/mouse2.jpg" alt="Logitech G502">
+                        </a>
+                        <div class="spe">
+                            <p>
+                                Logitech G502
+                            </p>
+                            <span class="line-through">
+                                399
+                            </span>
+                            <span class="price">
+                                350
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-2 responsive">
+                    <div class="card">
+                        <a href="./HTML/mouse3.html">
+                            <img title="Zowie S2" src="./img/mouse3.jpg" alt="Zowie S2">
+                        </a>
+                        <div class="spe">
+                            <p>
+                                Zowie S2
+                            </p>
+                            <span class="line-through">
+                                599
+                            </span>
+                            <span class="price">
+                                530
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 responsive">
+
+                    <div class="card">
+                        <a href="./HTML/mouse4.html">
+                            <img title="Rival 600" src="./img/mouse4.jpg" alt="Rival 600">
+                        </a>
+                        <div class="spe">
+                            <p>
+                                Rival 600
+                            </p>
+                            <span class="line-through">
+                                229
+                            </span>
+                            <span class="price">
+                                180
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 responsive">
+
+                    <div class="card">
+                        <a href="./HTML/mouse5.html">
+                            <img title="Razer Mamba" src="./img/mouse5.jpg" alt="Razer Mamba">
+                        </a>
+                        <div class="spe">
+                            <p>
+                                Razer Mamba
+                            </p>
+                            <span class="line-through">
+                                699
+                            </span>
+                            <span class="price">
+                                500
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 responsive">
+                    <div class="card">
+                        <a href="./HTML/mouse6.html">
+                            <img title="Logitech G903" src="./img/mouse6.jpg" alt="Logitech G903">
+                        </a>
+                        <div class="spe">
+                            <p>
+                                Logitech G903
+                            </p>
+                            <span class="line-through">
+                                1099
+                            </span>
+                            <span class="price">
+                                979
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="title">
+                <a href="./HTML/headphone.html">
+                    Headphone
+                </a>
+            </div>
+            <div class="row">
+                <div class="col-md-2 responsive">
+                    <div class="card">
+                        <a href="./HTML/headphone1.html">
+                            <img title="Razer Nari" src="./img/headphone1.jpg" alt="Razer Nari">
+                        </a>
+                        <div class="spe">
+                            <p>
+                                Razer Nari
+                            </p>
+                            <span class="line-through">
+                                299
+                            </span>
+                            <span class="price">
+                                230
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 responsive">
+                    <div class="card">
+                        <a href="./HTML/headphone2.html">
+                            <img title="Zowie Hammer" src="./img/headphone2.jpg" alt="Zowie Hammer">
+                        </a>
+                        <div class="spe">
+                            <p>
+                                Hammer
+                            </p>
+                            <span class="line-through">
+                                499
+                            </span>
+                            <span class="price">
+                                430
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 responsive">
+                    <div class="card">
+                        <a href="./HTML/headphone3.html">
+                            <img title="Logitech H340" src="./img/headphone3.jpg" alt="Logitech H340">
+                        </a>
+                        <div class="spe">
+                            <p>
+                                Logitech H340
+                            </p>
+                            <span class="line-through">
+                                399
+                            </span>
+                            <span class="price">
+                                330
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 responsive">
+                    <div class="card">
+                        <a href="./HTML/headphone4.html">
+                            <img title="Bose NC700" src="./img/headphone4.jpg" alt="Bose NC700">
+                        </a>
+                        <div class="spe">
+                            <p>
+                                Bose NC700
+                            </p>
+                            <span class="line-through">
+                                2199
+                            </span>
+                            <span class="price">
+                                2000
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 responsive">
+                    <div class="card">
+                        <a href="./HTML/headphone5.html">
+                            <img title="Solo Wireless" src="./img/headphone5.jpg" alt="Solo Wireless">
+                        </a>
+                        <div class="spe">
+                            <p>
+                                Solo Wireless
+                            </p>
+                            <span class="line-through">
+                                2299
+                            </span>
+                            <span class="price">
+                                1990
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 responsive">
+                    <div class="card">
+                        <a href="./HTML/headphone6.html">
+                            <img title="Bose QuietComfort 35 wireless headphones II" src="./img/headphone6.jpg"
+                                alt="Bose QuietComfort 35 wireless headphones II">
+                        </a>
+                        <div class="spe">
+                            <p>
+                                Bose QC35
+                            </p>
+                            <span class="line-through">
+                                2499
+                            </span>
+                            <span class="price">
+                                2550
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="title">
+                <a href="./HTML/phone.html">
+                    Phone
+                </a>
+            </div>
+            <div class="row">
+                <div class="col-md-2 responsive">
+                    <div class="card">
+                        <a href="./HTML/phone1.html">
+                            <img title="iphone XR 128GB" src="./img/phone1.jpg" alt="iphone XR 128GB">
+                        </a>
+                        <div class="spe">
+                            <p>
+                                iphone XR
+                            </p>
+                            <span class="line-through">
+                                5799
+                            </span>
+                            <span class="price">
+                                5500
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 responsive">
+                    <div class="card">
+                        <a href="./HTML/phone2.html">
+                            <img title="Huawei Mate30Pro" src="./img/phone2.jpg" alt="Huawei Mate30Pro">
+                        </a>
+                        <div class="spe">
+                            <p>
+                                Mate 30 Pro
+                            </p>
+                            <span class="line-through">
+                                5800
+                            </span>
+                            <span class="price">
+                                5400
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 responsive">
+
+                    <div class="card">
+                        <a href="./HTML/phone3.html">
+                            <img title="Meizu 16Xs 64GB" src="./img/phone3.jpg" alt="Meizu 16Xs 64GB">
+                        </a>
+                        <div class="spe">
+                            <p>
+                                Meizu 16Xs
+                            </p>
+                            <span class="line-through">
+                                2499
+                            </span>
+                            <span class="price">
+                                2290
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 responsive">
+                    <div class="card">
+                        <a href="./HTML/phone4.html">
+                            <img title="Galaxy S10" src="./img/phone4.jpg" alt="Galaxy S10">
+                        </a>
+                        <div class="spe">
+                            <p>
+                                Galaxy S10
+                            </p>
+                            <span class="line-through">
+                                7699
+                            </span>
+                            <span class="price">
+                                7500
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 responsive">
+                    <div class="card">
+                        <a href="./HTML/phone5.html">
+                            <img title="vivo NEX 3 128GB" src="./img/phone5.jpg" alt="vivo NEX 3 128GB">
+                        </a>
+                        <div class="spe">
+                            <p>
+                                vivo NEX 3
+                            </p>
+                            <span class="line-through">
+                                5698
+                            </span>
+                            <span class="price">
+                                5599
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 responsive">
+                    <div class="card">
+                        <a href="./HTML/phone6.html">
+                            <img title="Apple iphone 8 plus" src="./img/phone6.jpg" alt="Apple iphone 8 plus">
+                        </a>
+                        <div class="spe">
+                            <p>
+                                iphone 8 plus
+                            </p>
+                            <span class="line-through">
+                                5200
+                            </span>
+                            <span class="price">
+                                4999
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="footer clear-float">
+        <div>
+            <time>
+                2019/10/21
+            </time>
+            | Feng Yunjia |
+            <address>
+                China Sichuan Chengdu
+            </address>
+            <button id="print" class="btn btn-default" type="button" onclick="window.print()">
+                print this page
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
