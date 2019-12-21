@@ -1,0 +1,38 @@
+.user{
+    font-size: 1.8em;
+    color: #a39f9f;
+}
+.user_text{
+    border:  1px;
+    border-radius: 5px;
+    line-height: 1.7em;
+}
+.user_text:last-child{
+    margin-bottom: 50px;
+}
+.user_text:first-child{
+    margin-top: 50px;
+}
+.user img{
+    margin: 0 auto;
+    transition: all 1.5s;
+}
+.user img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transform: rotate(360deg);
+}
+#container{
+    float: right;
+    height:500px;
+    width:500px;
+}  
+#log_out{
+    margin-left: 40%;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.user_info{
+    margin-left: 10px;
+    color: rgb(78, 73, 73);
+}

@@ -1,0 +1,28 @@
+.fl #home {
+    margin-left:200%;
+}
+#top{
+    display: none;
+}
+.icon{
+    float: right;
+}
+#icon{
+    margin-left: -50%;
+}
+.myorders{
+    font-size: 1.15em;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon
+{
+    margin-top: 5em;
+}
+.spe{
+    margin-top:8em;
+}
+#container{
+    max-width: 400px;
+    max-height: 400px;
+}  
